@@ -21,6 +21,15 @@ dataset = pd.read_csv("C://Users//DITU//Documents//Jupyter//iris_dataset.csv")
 
 > Here, I have taken Sepal Length and Sepal Width as X and Y attributes respectively.
 
+``` 
+X = dataset["sepal length (cm)"]
+X
+```
+
+```
+Y = dataset["sepal width (cm)"]
+Y
+```
 
 ### Zip the dataset into one list 
 
